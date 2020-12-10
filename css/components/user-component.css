@@ -1,6 +1,9 @@
+.chats {
+  margin-bottom: 30px;
+}
+
 .user-component {
   justify-content: space-between;
-  margin-bottom: 35px;
 }
 
 .user-component,
