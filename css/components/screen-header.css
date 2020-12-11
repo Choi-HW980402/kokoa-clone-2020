@@ -19,7 +19,7 @@
   margin-left: 25px;
 }
 
-.screen-header__icons .nav__notification {
+.screen-header__icons .cog__notification {
   background-color: tomato;
   width: 5px;
   height: 5px;
@@ -28,4 +28,17 @@
   position: absolute;
   left: 150px;
   bottom: 20px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
 }
